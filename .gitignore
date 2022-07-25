@@ -5,3 +5,4 @@ test/installer/tmp/*
 test/tmp/*
 *~
 TestResults.xml
+.vscode/*.log
