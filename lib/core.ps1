@@ -1010,6 +1010,10 @@ function last_scoop_update() {
     return $last_update
 }
 
+function is_no_update_scoop() {
+    return get_config 'no_update_scoop'
+}
+
 function is_scoop_outdated() {
     $last_update = $(last_scoop_update)
     $now = [System.DateTime]::Now

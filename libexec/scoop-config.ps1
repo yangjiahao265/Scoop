@@ -101,6 +101,9 @@
 #       For example, if you want to access a private GitHub repository,
 #       you need to add the host to this list with 'match' and 'headers' strings.
 #
+# no_update_scoop: $true|$false
+#       When set to $true (default $false), Scoop would always skip update before install anything.
+#
 # ARIA2 configuration
 # -------------------
 #
@@ -129,6 +132,7 @@
 # aria2-options:
 #       Array of additional aria2 options.
 #       See: 'https://aria2.github.io/manual/en/html/aria2c.html#options'
+
 
 param($name, $value)
 
